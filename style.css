@@ -15,95 +15,46 @@
     bottom: 80px;
     font-size: 20px;
 }
-#noticias{
-    position: relative;
-    margin-left: 100px;
-    font-size: larger;
-}
-#fixture{
-    position: relative;
-    margin-left: 100px;
-    font-size: larger;
-}
-#equipos{
-    position: relative;
-    margin-left: 100px;
-    font-size: larger;
-}
-#tickets{
-    position: relative;
-    margin-left: 100px;
-    font-size: larger;
-}
-#tienda{
-    position: relative;
-    margin-left: 100px;
-    font-size: larger;
-}
-#buscador{
-    position: relative;
-    margin-left: 100px;
-    font-size: larger;
-}
-#tw{
-    position: fixed;
-    top: 0;
-    left: 400px;
-}
-.titulonoti{
-    position: relative;
-    top: 50px;
-    left: 65%;
-    font-size: 70px;
-}
-#img{
-    position: relative;
-    top: 200px;
-    left: 50%;
-}
-.pie{
-    position: relative;
-    top: 300px;
-    left: 50%;
-    font-size: larger;
-    width: 850px;
-}
-body{background: yellow;}
-.titu2{
-    position: relative;
-    bottom: 350px;
-    left: 5%;
-    font-size: 50px;
-}
-.img2{
-    position: relative;
-    bottom: 330px;
-    left: 0%;
-}
-.titu3{
-    position: relative;
-    bottom: 300px;
-    left: 10%;
-    font-size: 50px;
-}
-.img3{
-    position: relative;
-    bottom: 320px;
-}
-.titu4{
-    position: relative;
-    bottom: 600px;
-    left: 65%;
-    font-size: 70px;
-}
-.img4{
-    position: relative;
-    bottom: 600px;
-    left: 55%;
-}
+
+body{background: yellow !important;}
+
 
 .topnav {
+    display: flex;
+    flex-wrap: nowrap;
     background-color: white;
     position: sticky;
     top: 0;
 }
+
+.topnav  > div {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;d
+}
+
+.titu {
+    text-align: center;
+    margin: 100px;
+    background-color: green;
+    font-color: white;
+}
+
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.noticias > div {
+    margin-left: 170px;
+    margin-top: 80px;
+    align-content: center;
+}
+
+/*Celuar*/
+
+/*Tablets*/
+
+/*Laptops*/
