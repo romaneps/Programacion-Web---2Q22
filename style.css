@@ -1,12 +1,18 @@
-body{background: yellow !important;}
 #titulo{
     font-size: 50px;
     text-align: center !important;
 }
 #topnav{
     background-color: blue;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;    
 }
 #head{
     margin-top: 70px;
+}
+#topnav2{
+    margin-left: 200px;
+}
+#cuadro{
+    background-color: yellow !important;
+
 }
