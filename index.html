@@ -9,28 +9,143 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <div id="logo"><img src="https://via.placeholder.com/80 " alt="Imagen no encontrada"></div>
-    <div id="titulo">Titulo</div>
-    <div id="descripcion">descripcion</div>
-</header>
+    <div class="container">
+        <header class="blog-header lh-1 py-3" id="head">
+          <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-4 pt-1">
+              <a class="link-secondary" href="#"><img src="https://via.placeholder.com/100" alt="Imagen no encontrada"></a>
+            </div>
+            <div class="col-4 text-center" id="titulo">
+                <a class="blog-header-logo text-dark" href="#">TITULO</a>
+            </div>
 
-<div class="topnav">
-    <button type="button" id="noticias">NOTICIAS</button>
-    <div><button type="button" id="noticias">NOTICIAS</button></div>
-    <div><button type="button" id="fixture">FIXTURE</button></div>
-    <div><button type="button" id="equipos">EQUIPOS</button></div>
-    <div><button type="button" id="tickets">TICKETS</button></div>
-    <div><button type="button" id="tienda">TIENDA</button></div>
-    <div><input type="text" placeholder= BUSCADOR id="buscador"></input></div>
-</div>
-<h1 class="titu">TOCAR LA IMAGEN PARA LEER LA NOTICA</h1>
-<div class="noticias">
-    <div><button type="button" id="notiprin"> <img src="https://via.placeholder.com/1200x600" alt="Imagen no encontrada"></button> </div>
-    <div><button type="button" id="noti1"> <img src="https://via.placeholder.com/500x300" alt="Imagen no encontrada"></button> </div>
-   <div><button type="button" id="noti2"> <img src="https://via.placeholder.com/500x300" alt="Imagen no encontrada"></button></div>
-   <div><button type="button" id="noti3"> <img src="https://via.placeholder.com/500x300" alt="Imagen no encontrada"></button> </div>
-   <div><button type="button" id="noti4"> <img src="https://via.placeholder.com/500x300" alt="Imagen no encontrada"></button> </div>
-</div>
+            <div class="col-4 d-flex justify-content-end align-items-center">
+              <a class="link-secondary" href="#" aria-label="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+              </a>
+              <a class="btn btn-sm btn-outline-secondary" href="#">Iniciar Sesion</a>
+            </div>
+          </div>
+        </header>
+      
+        <div class="nav-scroller fixed-top py-1 mb-2" id="topnav">
+          <nav class="nav d-flex justify-content-between">
+            <a class="p-2 link-secondary" href="#">FIXTURE</a>
+            <a class="p-2 link-secondary" href="#">TIENDA</a>
+            <a class="p-2 link-secondary" href="#">TICKETS</a>
+            <a class="p-2 link-secondary" href="#">NOTICIAS</a>
+            <a class="p-2 link-secondary" href="#">LA BOMBONERA</a>
+            <a class="p-2 link-secondary" href="#">PLANTEL MASCULINO</a>
+            <a class="p-2 link-secondary" href="#">PLANTEL FEMENINO</a>
+            <a class="p-2 link-secondary" href="#">INFERIORES</a>
+            <a class="p-2 link-secondary" href="#">HISTORIA</a>
+          </nav>
+        </div>
+      </div>
+      
+      <main class="container">
+        <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+          <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic">NOTICIA IMPORTANTE</h1>
+            <p class="lead my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nam voluptatibus tempora eligendi nostrum commodi nesciunt numquam laborum labore veritatis, rem a unde quidem. Atque beatae fugiat omnis id earum.</p>
+            <p class="lead mb-0"><a href="#" class="text-white fw-bold">Leer mas...</a></p>
+          </div>
+        </div>
+      
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">Futbol Femenino</strong>
+                <h3 class="mb-0">Noticia Femenino</h3>
+                <div class="mb-1 text-muted">dia</div>
+                <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus aliquid ratione tempora cumque ullam.</p>
+                <a href="#" class="stretched-link">Leer mas...</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+      
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Inferiores</strong>
+                <h3 class="mb-0">Noticia Inferiores</h3>
+                <div class="mb-1 text-muted">dia</div>
+                <p class="mb-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, enim? Non accusantium numquam vitae? Omnis iste quo.</p>
+                <a href="#" class="stretched-link">Leer mas..</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Foto</text></svg>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row g-5">
+          <div class="col-md-8">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+              HISTORIA
+            </h3>
+      
+            <article class="blog-post">
+              <h2 class="blog-post-title mb-1">Fundadores</h2>
+      
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolorem veritatis animi eaque quos commodi repudiandae magni tempora nostrum accusantium vel facere iste architecto, blanditiis culpa praesentium deleniti. Commodi, laudantium.</p>
+              <hr>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis ipsa, perferendis ea corporis omnis voluptates quibusdam quae dolores sunt repellat, modi velit dolore deleniti fugiat incidunt rerum possimus. Magni, laudantium?</p>
+              <h2>El Inicio</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, autem cupiditate explicabo neque nisi, nulla quasi laudantium est saepe aut excepturi consequatur itaque nobis magnam eum dicta velit deserunt maiores!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione harum assumenda facere voluptate accusantium expedita eaque dolor similique corporis dolores totam, fugiat libero numquam necessitatibus facilis, vitae sint esse!</p>
+              <h3>Primeros Partidos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet atque voluptas fuga, provident exercitationem libero quasi alias inventore eos nisi, labore odio quos facere qui tenetur quis non? Ab, sequi.</p>
+             
+              <h3>Titulos</h3>
+              <p>Locales e Internacionales</p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Titulo</th>
+                    <th>Cantidad</th>
+                    <th>Years</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Libertadores</td>
+                    <td>10</td>
+                    <td>2007</td>
+                  </tr>
+                  <tr>
+                    <td>Clausura</td>
+                    <td>4</td>
+                    <td>2012</td>
+                  </tr>
+                  <tr>
+                    <td>Copa Argentina</td>
+                    <td>7</td>
+                    <td>2021</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>Totals</td>
+                    <td>21</td>
+                  </tr>
+                </tfoot>
+              </table>
+      
+             
+          </div>
+        </div>
+      
+      </main>
+      
+      <footer class="blog-footer">
+        <p>Pagina oficial del Club Atletico Boca Juniors <a href="https://www.bocajuniors.com.ar/">click</a><p><a href="#">Back to top</a></p>
+      </footer>
 </body>
 </html>

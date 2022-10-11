@@ -1,60 +1,12 @@
-#logo{
-    position: relative;
-    top: 20px;
-    left: 50px;
-}
-#titulo{
-    margin-left: 140px;
-    position: relative;
-    bottom: 70px;
-    font-size: 50px;
-}
-#descripcion{
-    margin-left: 140px;
-    position: relative;
-    bottom: 80px;
-    font-size: 20px;
-}
-
 body{background: yellow !important;}
-
-
-.topnav {
-    display: flex;
+#titulo{
+    font-size: 50px;
+    text-align: center !important;
+}
+#topnav{
+    background-color: blue;
     flex-wrap: nowrap;
-    background-color: white;
-    position: sticky;
-    top: 0;
 }
-
-.topnav  > div {
-    width: 300px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;d
+#head{
+    margin-top: 70px;
 }
-
-.titu {
-    text-align: center;
-    margin: 100px;
-    background-color: green;
-    font-color: white;
-}
-
-.noticias {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.noticias > div {
-    margin-left: 170px;
-    margin-top: 80px;
-    align-content: center;
-}
-
-/*Celuar*/
-
-/*Tablets*/
-
-/*Laptops*/
