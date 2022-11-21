@@ -16,3 +16,7 @@
     background-color: yellow !important;
 
 }
+
+h2#tiempoRestante{
+	font-size: 2rem;
+}
