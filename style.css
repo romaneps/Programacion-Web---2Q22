@@ -15,9 +15,13 @@
     margin-left: 200px;
 }
 #cuadro{
-    background-color:white !important;
+    background-color:yellow !important;
+    
 
 }
 
+#letra{
+    color: black;
+}
 
 
