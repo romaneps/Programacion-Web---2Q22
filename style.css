@@ -1,10 +1,12 @@
 #titulo{
     font-size: 50px;
     text-align: center !important;
+    flex-wrap: wrap !important;
+    color: blue !important;
 }
 #topnav{
     background-color: blue;
-    flex-wrap: nowrap;    
+    flex-wrap: wrap;   
 }
 #head{
     margin-top: 70px;
@@ -13,10 +15,9 @@
     margin-left: 200px;
 }
 #cuadro{
-    background-color: yellow !important;
+    background-color:white !important;
 
 }
 
-h2#tiempoRestante{
-	font-size: 2rem;
-}
+
+
