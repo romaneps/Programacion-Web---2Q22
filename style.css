@@ -6,13 +6,15 @@
 }
 #topnav{
     background-color: blue;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;;   
 }
 #head{
     margin-top: 70px;
 }
 #topnav2{
-    margin-left: 200px;
+    margin-left: 15%;
+    margin-right: 5%;
+
 }
 #cuadro{
     background-color:yellow !important;
@@ -24,4 +26,11 @@
     color: black;
 }
 
+#back{
+    height: 50px !important;
+}
 
+#fixture{
+    height: 100%;
+    width: 100%;
+}
